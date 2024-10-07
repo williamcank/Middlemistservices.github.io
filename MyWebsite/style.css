@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+#header #logo img {
+    width: 200px;
+}
+
+#topLinks {
+    text-align: right;
+    margin-top: -40px;
+}
+
+#topLinks a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#mainNav {
+    background-color: #193262;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainNav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#mainNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#banner {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#bannerContent h1 {
+    font-size: 2.5em;
+}
+
+#bannerPix {
+    margin-top: 20px;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 600px;
+    display: none;
+}
+
+/* Key Features */
+#keyFeatures {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.featuredBlock {
+    text-align: center;
+}
+
+.featuredBlock img {
+    width: 200px;
+    height: auto;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
